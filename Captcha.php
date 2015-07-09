@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); 
 
 	////////////////////////////////////////////////////////////////////////
-	///////      this must be place in: application / libraries      ///////
+	///////      this must be placed in: application / libraries      ///////
 	////////////////////////////////////////////////////////////////////////
 
 
@@ -50,7 +50,7 @@
 			$CI->session->set_userdata($catcha_info);
 
 			//	-------------------------------------------------------------------
-			//	return data to the view
+			//	return data to the view (ajax call)
 			echo $data['captcha_operation'];
 		}
 
